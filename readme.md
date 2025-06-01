@@ -48,8 +48,5 @@ git clone https://github.com/your-username/titanic-survival-app.git
 cd titanic-survival-app
 
 2. Install dependencies:
-```bash
-copy
-Edit
-pip install -r requirements.txt
+
 
