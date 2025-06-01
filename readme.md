@@ -35,7 +35,6 @@ A machine learning web application that predicts Titanic passenger survival usin
 ## 🌐 Demo
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://titanicmachinelearning-xjh6sqpvqmzc2wkft4ksza.streamlit.app/)  
-*(Replace the above link with your actual deployed app)*
 
 ![App Screenshot](screenshots/app-preview.png)
 
