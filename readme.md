@@ -1,38 +1,49 @@
 # 🚢 Titanic Survival Prediction App
 
-This is an interactive Streamlit web app that predicts whether a passenger would survive the Titanic disaster based on their characteristics using a **Logistic Regression** model.
+![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A machine learning web application that predicts Titanic passenger survival using logistic regression.
 
 ---
 
-## 🎯 Features
+## 📚 Table of Contents
 
-- Input passenger details through a simple sidebar interface.
-- Predict survival outcome using a trained logistic regression model.
-- Displays survival probability as a percentage.
-- Automatically trains and caches the model if not already saved.
-
----
-
-## 🧠 Model
-
-The model is trained using the classic **Titanic dataset** (`titanic.csv`) with the following features:
-
-- Pclass (Passenger class)
-- Sex
-- Age
-- SibSp (Siblings/Spouses aboard)
-- Parch (Parents/Children aboard)
-- Fare
-- Embarked (Q and S encoded)
-
-Model: `LogisticRegression` from `scikit-learn`  
-Scaler: `StandardScaler` for feature normalization
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dataset](#dataset)
+- [Model](#model)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Features
 
-### 1. Clone the Repository
+- Interactive Streamlit web UI
+- Real-time passenger survival prediction
+- Logistic regression-based classifier
+- Survival probability score
+- Auto-training if model not found
+- Supports local and Streamlit Cloud deployment
+
+---
+
+## 🌐 Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://titanicmachinelearning-xjh6sqpvqmzc2wkft4ksza.streamlit.app/)  
+*(Replace the above link with your actual deployed app)*
+
+![App Screenshot](screenshots/app-preview.png)
+
+---
+
+## 🛠 Installation
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/titanic-survival-app.git
