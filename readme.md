@@ -50,8 +50,8 @@ cd titanic-survival-app
 
 2.Install dependencies:
 
-bash
-Copy
+```bash
+copy
 Edit
 pip install -r requirements.txt
 
