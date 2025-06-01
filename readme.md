@@ -43,7 +43,7 @@ A machine learning web application that predicts Titanic passenger survival usin
 ## 🛠 Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/titanic-survival-app.git
+git clone [https://github.com/Vasanthkumar5648/Titanic_Machine_Learning/blob/main/Titanic_ML.py]
 cd titanic-survival-app 
 
 2.Install dependencies:
